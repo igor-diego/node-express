@@ -1,4 +1,5 @@
 import readLineSync from 'readline-sync'
+import chalk from 'chalk'
 
 let propriedadeCss = []
 
@@ -12,8 +13,7 @@ while (true) {
 }
 
 let result = propriedadeCss.sort();
-console.log(result.join('\n'));
-
+console.log(chalk.green(result.join('\n')));
 
 
 
